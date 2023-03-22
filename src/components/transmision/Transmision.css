@@ -1,0 +1,151 @@
+.App__transmision{
+    width: 100%;
+    height: 80vh;
+    background: rgb(0, 0, 0);
+   
+}
+
+
+.App__transmision-letf{
+    width: 54%;
+    height: 90%;
+    justify-content: flex-end;
+}
+
+.App__transmision-letf img{
+    width: 95%;
+    height: 90%;
+}
+
+.App__transmision-right{
+    width: 40%;
+    height: 90%;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: .3em;
+    justify-content: space-evenly;
+}
+
+.App__transmision-right > h3{
+    font-size: 54px;
+    line-height: 59px;
+}
+
+.App__transmision-right button{
+    width:15em;
+    height: 8%;
+    background: brown;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+
+.App__transmision-right-content{
+  width: 90%;
+  height: 30%;
+  gap: 5%;
+  
+}
+
+.transmision-right-content-top{
+    width: 45%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+
+.transmision-right-content-botton{
+    width: 45%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+.transmision-right-content-top h3,
+.transmision-right-content-botton h3{
+    font-size: 19px;
+    line-height: 23px;
+    color: white;
+}
+.transmision-right-content-top p,
+.transmision-right-content-botton p{
+    color: white;
+}
+
+
+
+@media screen and (max-width:1005px) {
+    .App__transmision-right > h3{
+        font-size: 43px;
+        line-height: 47px;
+    }
+}
+
+@media screen and (max-width:856px) {
+    .App__transmision{
+        flex-direction: column;
+      
+    }
+    .App__transmision-letf {
+        width: 85%;
+        height: 40%;
+    }
+    .App__transmision-letf img{
+        width: 100%;
+        height: 100%;
+    }
+    .App__transmision-right-content{
+        height: 50%;
+    }
+
+    .App__transmision-right{
+        width: 85%;
+        height: 50%;
+    }
+    .App__transmision-right button{
+        height: 3.5em;
+    }
+    .App__transmision-right{
+        width: 85%;
+    }
+}
+@media screen and (max-width:599px) {
+    .App__transmision{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:390px) {
+   
+    .App__transmision-right > h3{
+        font-size: 36px;
+        line-height: 39px;
+    }
+
+    .App__transmision-right{
+        width: 100%;
+    }
+
+    .transmision-right-content-top h3,
+    .transmision-right-content-botton h3{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .transmision-right-content-top p,
+    .transmision-right-content-botton p{
+        font-size: 16px;
+    }
+}

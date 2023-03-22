@@ -1,0 +1,175 @@
+.App__header{
+    width: 100%;
+    height: 66vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.App__header-letf{
+    width: 46%;
+    height: 80%;
+    padding-left:4%;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    gap: 2%;
+}
+
+.App__header-letf p{
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.App__header-letf h3{
+    font-size: 76px;
+    line-height: 79px;
+}
+
+.App__header-letf button{
+    width: 30%;
+    height: 15%;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+  font-family: var(--font);
+  background: rgb(202, 56, 56);
+}
+
+
+
+.App__header-right{
+    width: 50%;
+    height: 78%;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+}
+
+.App__header-right img{
+    width: 93%;
+    height: 100%;
+}
+
+
+
+
+@media screen and (max-width:1400px){
+    .App__header-letf h3{
+        font-size: 73px;
+        line-height: 77px;
+    }
+}
+
+
+@media screen and (max-width:1371px){
+    .App__header{
+        height: 80vh;
+    }
+    .App__header-letf h3{
+        font-size: 67px;
+        line-height: 70px;
+        margin-right: 2%;
+    }
+    .App__header-right img{
+        height: 90%;
+    }
+}
+
+@media screen and (max-width:994px){
+    .App__header-letf h3{
+        font-size: 63px;
+        line-height: 68px;
+    }
+   
+    .App__header-letf button{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width:856px){
+    .App__header{
+        flex-direction: column-reverse;
+        height: 100vh;
+        
+    }
+
+    .App__header-letf{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content:flex-start;
+        
+    }
+    
+    .App__header-letf h3{
+        margin: .2em 0;
+        text-align: center;
+    }
+    .App__header-right{
+        width: 100%;
+        height: 45%;
+        align-items:  flex-end;
+        justify-content: center;
+        margin-top: 3em;
+    }
+    .App__header-right img{
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:566px){
+   
+    
+    .App__header-letf h3{
+      font-size: 50px;
+      line-height: 60px;
+      margin: 0 .5em;
+    }
+}
+
+@media screen and (max-width:464px){
+    .App__header{
+        height: 80vh;
+    }
+    
+    .App__header-letf h3{
+      font-size: 43px;
+      line-height: 46px;
+      margin: 0;
+    }
+}
+
+
+@media screen and (max-width:377px){
+   
+   
+    .App__header-right{
+        height: 35%;
+    
+    }
+    .App__header{
+       height: 75vh;
+    }
+
+    .App__header-letf{
+        height: 50%;
+    }
+    .App__header-letf h3{
+      font-size: 37px;
+      line-height: 40px;
+    }
+}
+
+@media screen and (max-width:319px){
+   
+    .App__header-letf h3{
+      font-size: 32px;
+      line-height: 38px;
+    }
+}

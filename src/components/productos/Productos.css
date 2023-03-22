@@ -1,0 +1,109 @@
+.App__productos{
+    width: 100%;
+    height: 120vh;
+    background: rgb(193, 45, 45);
+    gap: 5em;
+    flex-direction: column;
+}
+
+.App__productos > h3{
+    font-size: 54px;
+    line-height: 59px;
+    color: white;
+}
+
+.App__productos > div{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App__productos-left{
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2em;
+    color: white;
+}
+
+.App__productos-right{
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1.5em;
+    color: white;
+}
+
+.App__productos-left img,
+.App__productos-right img{
+    width: 80%;
+    height: 70%;
+}
+
+
+@media screen and (max-width:1194px) {
+    .App__productos{
+        height: 100vh;
+    }
+    .App__productos-left,
+    .App__productos-right{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:723px) {
+    .App__productos{
+        height: 110vh;
+    }
+    .App__productos h3{
+        text-align: center;
+    }
+    .App__productos > div{
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+    }
+    .App__productos-left{
+        align-self: start;
+        height: 50%;
+        width: 70%;
+        gap: .5em;
+    }
+    .App__productos-right{
+        align-self: flex-end;
+        justify-content: flex-start;
+        height: 50%;
+        width: 70%;
+        gap: .5em;
+    }
+}
+
+
+@media screen and (max-width:510px) {
+
+    .App__productos{
+        height: 150vh;
+    }
+    .App__productos-left{
+        align-self: center;
+        width: 100%;
+    }
+    .App__productos-right{
+        align-self: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:344px){
+    .App__productos > h3{
+        font-size: 44px;
+        line-height: 49px;
+      
+    }
+}

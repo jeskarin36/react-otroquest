@@ -1,0 +1,38 @@
+.App__videos{
+    width: 94%;
+    min-height: 80vh;
+    padding: 7% 3%;
+    background: rgb(0, 0, 0);
+    flex-direction: column;
+    gap: 5em;
+    flex-wrap: wrap;
+}
+
+.App__videos > h3{
+    font-size:54px ;
+    line-height: 59px;
+    color: white;
+}
+
+.App__videos > div{
+    width: 100%;
+    height: 80%;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+
+@media screen  and (max-width:940px){
+ 
+    .App__videos h3{
+        text-align: center;
+    }
+    
+}
+
+@media screen  and (max-width:352px){
+    .App__videos > h3{
+        font-size:44px ;
+        line-height: 49px;
+    }
+}

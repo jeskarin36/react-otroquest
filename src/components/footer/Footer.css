@@ -1,0 +1,124 @@
+.App__footer{
+    width: 100%;
+    height: 40vh;
+    background: rgb(255, 255, 255);
+}
+
+.footer-caja{
+    width: 15em;
+    height: 17em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    text-align: center;
+}
+
+.footer-caja h3{
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.footer-caja > ul{
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-caja > ul li a{
+    color: rgb(30, 30, 30);
+    text-decoration: underline;
+}
+
+.footer-caja > .redes{
+    height: 60%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.footer-caja > .redes li a{
+    font-size: 25px;
+}
+
+
+.footer-caja-large {
+    width: 35em;
+    height: 17em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+}
+
+.footer-caja-large > form{
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    gap: 2%;
+}
+
+
+.footer-caja-large > form input[type="submit"]{
+    width: 30%;
+    height: 30%;
+    background: rgb(33, 33, 33);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+.footer-caja-large > form input[type="email"]{
+    width: 40%;
+    height: 23%;
+    padding: 2%;
+    border: 2px solid rgb(43, 43, 43);
+    outline: none;
+    border-radius: 5px;
+}
+
+.footer-caja-large > form input[type="email"]::placeholder{
+    color: black  ;
+}
+
+@media screen and (max-width:855px){
+    .App__footer{
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    .footer-caja{
+        width: 15em;
+    }
+    .footer-caja-large{
+        width: 38em;
+    }
+}
+
+@media screen and (max-width:405px){
+   
+    .footer-caja-large form{
+        flex-direction: column;
+    }
+    .footer-caja-large form input[type="submit"]{
+        width: 10em;
+    }
+    .footer-caja-large form input[type="email"]{
+        width: 20em;
+    }
+}
+
+@media screen and (max-width:321px){
+   
+    .footer-caja-large form input[type="submit"]{
+        width: 10em;
+    }
+    .footer-caja-large form input[type="email"]{
+        width: 17em;
+    }
+}

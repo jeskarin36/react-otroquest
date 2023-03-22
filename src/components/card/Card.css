@@ -1,0 +1,31 @@
+.App__card{
+    width: 27em;
+    height: 19em;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5em;
+}
+
+
+.App__card > div{
+    width: 100%;
+    height: 13em;
+    background: rgb(93, 46, 41);
+}
+
+@media screen  and (max-width:940px){
+    .App__card{
+        height: 19em;
+    }
+    
+}
+
+@media screen and (max-width:493px){
+    .App__card{
+        width: 95%;
+    }
+}

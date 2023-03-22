@@ -1,0 +1,73 @@
+.App__bienvenida{
+    width: 100%;
+    height: 16vh;
+}
+
+.App__bienvenida-letf{
+    width: 47%;
+    height: 100%;
+    padding-left: 3%;
+    justify-content: flex-start;
+}   
+
+.App__bienvenida-right{
+    width: 42%;
+    height: 100%;
+    padding: 0 4%;
+}
+
+@media screen and (max-width:856px){
+
+    .App__bienvenida{
+         flex-direction: column;
+         align-items: flex-start;
+         height: 20vh;
+    }
+    .App__bienvenida-letf{
+        width: 58%;
+        align-items: flex-end;
+        padding-bottom: .5em;
+        padding-left: 3em;
+    }
+    .App__bienvenida-right{
+        
+        width: 80%;
+        align-items: flex-start;
+        padding-top: .5em;
+        padding-left: 3em;
+    }
+
+}
+
+
+
+@media screen and (max-width:445px){
+    .App__bienvenida{
+        height: 25vh;
+        padding-bottom: 2em;
+    }
+    .App__bienvenida-letf{
+        width: 80%;
+    }
+
+    .App__bienvenida-letf{
+        padding-left: 10%;
+    }
+    .App__bienvenida-right{
+        padding-left: 10%;
+
+    }
+}
+
+@media screen and (max-width:354px){
+    
+    .App__bienvenida-letf{
+        padding-left: 5%;
+        width: 90%;
+    }
+    .App__bienvenida-right{
+        padding-left: 5%;
+        width: 90%;
+    }
+
+}

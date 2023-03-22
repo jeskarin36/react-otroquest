@@ -1,0 +1,92 @@
+.App__contenido{
+    width: 100%;
+    height: 80vh;
+    background: rgb(0, 0, 0);
+}
+
+.App__contenido-letf{
+    width: 43%;
+    height: 80%;
+    padding: 0 4% ;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    gap:1.5em;
+}
+
+.App__contenido-letf h3{
+    font-size: 54px;
+    line-height: 59px;
+    margin-right: 20%;
+}
+
+.App__contenido-letf p{
+    font-size: 19px;
+    line-height: 31px;
+    margin-right: 20%;
+}
+
+.App__contenido-letf button{
+    width: 18em;
+    height: 9%;
+}
+
+.App__contenido-right{
+    width: 50%;
+    height: 80%;
+    justify-content: flex-start;
+}
+
+.App__contenido-right img{
+    width: 90%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:768px){
+    .App__contenido{
+        height: 120vh;
+        flex-direction: column;
+    }
+    .App__contenido-letf{
+        width:90%;
+        height: 50%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 0 1em;
+    }
+
+    .App__contenido-letf h3,.App__contenido-letf p{
+        margin-right: 0;
+    }
+  
+    .App__contenido-right{
+        width: 95%;
+        height: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width:596px){
+    .App__contenido-letf h3{
+        font-size: 44px;
+        line-height: 49px;
+    }
+}
+
+
+@media screen and (max-width:453px){
+    .App__contenido-letf{
+        align-items: flex-start;
+        text-align: start;
+    }
+    .App__contenido-letf h3{
+        font-size: 34px;
+        line-height: 39px;
+    }
+}
