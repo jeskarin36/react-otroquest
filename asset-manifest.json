@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-otroquest/static/css/main.7c9b90d4.css",
+    "main.js": "/react-otroquest/static/js/main.a914e08d.js",
+    "static/media/png": "/react-otroquest/static/media/580b57fbd9996e24bc43bf78.3f1403bf7d33bea77329.png",
+    "static/media/Polo-Shirt-Free-Download-PNG.png": "/react-otroquest/static/media/Polo-Shirt-Free-Download-PNG.a3733126b0dcb533dd96.png",
+    "static/media/15984261425685.jpg": "/react-otroquest/static/media/15984261425685.e6b302f36e45038d8a60.jpg",
+    "static/media/recomendaciones-videojuegos.jpg": "/react-otroquest/static/media/recomendaciones-videojuegos.ac61ed2b6d5693b04334.jpg",
+    "static/media/2021816119956_1.jpg": "/react-otroquest/static/media/2021816119956_1.1eceeebe165ae2ca6533.jpg",
+    "index.html": "/react-otroquest/index.html",
+    "main.7c9b90d4.css.map": "/react-otroquest/static/css/main.7c9b90d4.css.map",
+    "main.a914e08d.js.map": "/react-otroquest/static/js/main.a914e08d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c9b90d4.css",
+    "static/js/main.a914e08d.js"
+  ]
+}
